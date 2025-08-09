@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
         gravityScale = rb.gravityScale;
     }
 
-    private void Update()
+    private void Update()   
     {
         HandleInput();
         UpdateAnimator();
