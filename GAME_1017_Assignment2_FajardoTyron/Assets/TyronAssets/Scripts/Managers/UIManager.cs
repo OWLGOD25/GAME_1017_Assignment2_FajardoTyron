@@ -13,7 +13,6 @@ public class UIManager : MonoBehaviour
     public Button quitButton; // persistent button to quit game
 
     [Header("Pause / Options")]
-    public GameObject pausePanel; // translucent panel (child of canvas)
     public Button pauseToggleButton; // persistent button
     public Slider musicSlider;
     public Slider sfxSlider;
@@ -27,7 +26,8 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        if (pausePanel) pausePanel.SetActive(false);
+        if (pauseToggleButton) sfxSlider.gameObject.SetActive(false);
+        if (pauseToggleButton) musicSlider.gameObject.SetActive(false); 
         if (pauseToggleButton) pauseToggleButton.onClick.AddListener(TogglePause);
 
         // initialize sliders from SoundManager
@@ -45,12 +45,14 @@ public class UIManager : MonoBehaviour
         if (isPaused)
         {
             Time.timeScale = 0f;
-            if (pausePanel) pausePanel.SetActive(true);
+            if (pauseToggleButton) sfxSlider.gameObject.SetActive(true);
+            if (pauseToggleButton) musicSlider.gameObject.SetActive(true);
         }
         else
         {
             Time.timeScale = 1f;
-            if (pausePanel) pausePanel.SetActive(false);
+            if (pauseToggleButton) sfxSlider.gameObject.SetActive(false);
+            if (pauseToggleButton) musicSlider.gameObject.SetActive(false);
         }
     }
 

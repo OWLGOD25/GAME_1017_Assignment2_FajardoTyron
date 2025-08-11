@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tyron\\Downloads\\Unity projects\\Assignment2\\GAME_1017_Assignment2_FajardoTyron\\GAME_1017_Assignment2_FajardoTyron\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFE0352B-7978-7484-77D2-8D274D624CA6}|Assembly-CSharp.csproj|C:\\Users\\tyron\\Downloads\\Unity projects\\Assignment2\\GAME_1017_Assignment2_FajardoTyron\\GAME_1017_Assignment2_FajardoTyron\\assets\\tyronassets\\scripts\\managers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE0352B-7978-7484-77D2-8D274D624CA6}|Assembly-CSharp.csproj|solutionrelative:assets\\tyronassets\\scripts\\managers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EFE0352B-7978-7484-77D2-8D274D624CA6}|Assembly-CSharp.csproj|C:\\Users\\tyron\\Downloads\\Unity projects\\Assignment2\\GAME_1017_Assignment2_FajardoTyron\\GAME_1017_Assignment2_FajardoTyron\\assets\\tyronassets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFE0352B-7978-7484-77D2-8D274D624CA6}|Assembly-CSharp.csproj|solutionrelative:assets\\tyronassets\\scripts\\managers\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE0352B-7978-7484-77D2-8D274D624CA6}|Assembly-CSharp.csproj|c:\\users\\tyron\\downloads\\unity projects\\assignment2\\game_1017_assignment2_fajardotyron\\game_1017_assignment2_fajardotyron\\assets\\tyronassets\\scripts\\managers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE0352B-7978-7484-77D2-8D274D624CA6}|Assembly-CSharp.csproj|solutionrelative:assets\\tyronassets\\scripts\\managers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFE0352B-7978-7484-77D2-8D274D624CA6}|Assembly-CSharp.csproj|C:\\Users\\tyron\\Downloads\\Unity projects\\Assignment2\\GAME_1017_Assignment2_FajardoTyron\\GAME_1017_Assignment2_FajardoTyron\\assets\\tyronassets\\scripts\\movescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -58,8 +58,7 @@
               "RelativeToolTip": "Assets\\TyronAssets\\Scripts\\MoveScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T23:53:47.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-10T23:53:47.239Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "Assets\\TyronAssets\\Scripts\\GameOverUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T05:25:27.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T05:25:27.724Z"
             },
             {
               "$type": "Document",
@@ -88,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\tyron\\Downloads\\Unity projects\\Assignment2\\GAME_1017_Assignment2_FajardoTyron\\GAME_1017_Assignment2_FajardoTyron\\Assets\\TyronAssets\\Scripts\\Managers\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\TyronAssets\\Scripts\\Managers\\UIManager.cs",
               "ToolTip": "C:\\Users\\tyron\\Downloads\\Unity projects\\Assignment2\\GAME_1017_Assignment2_FajardoTyron\\GAME_1017_Assignment2_FajardoTyron\\Assets\\TyronAssets\\Scripts\\Managers\\UIManager.cs",
               "RelativeToolTip": "Assets\\TyronAssets\\Scripts\\Managers\\UIManager.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAswDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwvzYAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T05:22:25.31Z",
               "EditorCaption": ""
@@ -109,8 +107,7 @@
               "RelativeToolTip": "Assets\\TyronAssets\\Scripts\\Managers\\SoundManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T05:22:24.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-09T05:22:24.067Z"
             },
             {
               "$type": "Document",
@@ -126,13 +123,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainController.cs",
               "DocumentMoniker": "C:\\Users\\tyron\\Downloads\\Unity projects\\Assignment2\\GAME_1017_Assignment2_FajardoTyron\\GAME_1017_Assignment2_FajardoTyron\\Assets\\TyronAssets\\Scripts\\Managers\\MainController.cs",
               "RelativeDocumentMoniker": "Assets\\TyronAssets\\Scripts\\Managers\\MainController.cs",
               "ToolTip": "C:\\Users\\tyron\\Downloads\\Unity projects\\Assignment2\\GAME_1017_Assignment2_FajardoTyron\\GAME_1017_Assignment2_FajardoTyron\\Assets\\TyronAssets\\Scripts\\Managers\\MainController.cs",
               "RelativeToolTip": "Assets\\TyronAssets\\Scripts\\Managers\\MainController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwAoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-09T05:22:21.384Z",
               "EditorCaption": ""

@@ -8,7 +8,8 @@ public class MainController : MonoBehaviour
     public SoundManager SoundManager { get; private set; }
     public UIManager UIManager { get; private set; }
 
-    private GameObject pausePanel;
+    [Header("Pause Panel")]
+    public GameObject pausePanel;
 
     private void Awake()
     {
@@ -30,23 +31,7 @@ public class MainController : MonoBehaviour
         if (SoundManager == null) Debug.LogWarning("SoundManager not found under MainController.");
         if (UIManager == null) Debug.LogWarning("UIManager not found under MainController.");
     }
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        // Try to find the pause panel in the new scene
-        pausePanel = GameObject.FindWithTag("PausePanel");
-
-        if (pausePanel != null)
-        {
-            if (scene.name == "Game")
-            {
-                pausePanel.SetActive(false); // start hidden
-            }
-            else
-            {
-                pausePanel.SetActive(false); // keep it off in Title/GameOver
-            }
-        }
-    }
+ 
     public void StartGame()
     {
         // Optional: stop title music
