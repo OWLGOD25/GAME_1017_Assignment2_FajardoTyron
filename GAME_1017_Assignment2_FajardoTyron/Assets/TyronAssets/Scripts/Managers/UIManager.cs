@@ -7,6 +7,11 @@ using System.Collections;
 
 public class UIManager : MonoBehaviour
 {
+    [Header("UI Button")]
+    public Button startButton; // persistent button to start game
+    public Button resetButton; // persistent button to reset game
+    public Button quitButton; // persistent button to quit game
+
     [Header("Pause / Options")]
     public GameObject pausePanel; // translucent panel (child of canvas)
     public Button pauseToggleButton; // persistent button
